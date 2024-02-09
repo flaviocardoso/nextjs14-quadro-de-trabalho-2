@@ -34,3 +34,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Detalhes do Projeto
+- Projeto criado por "Code in Flow no Youtube"
+
+## O que tem no projeto
+- Zod - não foi utilizado para variavies de ambiente. Utilizado como validalidador de variavies.
+- Validacões com zod com o hook form. com uso de resolve para aplicar no formulário com compoments shadcn.
+- Criação de components com shadcn (generate).
+- Importação dinamica para draft wysiwyg, para criar o editor de texto markdown e configuração
+- Utilização de icones do lucide.
+- Utlização de cache para lista de slugs
+- Utilização do markdown para transformar as informação do richtexteditor do banco de dados.
+- Utilização do rook useMemo para as listas de cidades
+- Utização do clerk para autenticação do adminstrador
+
+## Coisa criadas
+- Criação de formulário para criação de anuncio de trabalho.
+- Criação de pesquisa para a lista de trabalhos.
+- Criação de proprios components com shadsn, usando tailwind merge, clsx e forwardRef.
+- Criação de uma simples páginação usando prisma, para pesquisa e páginas
+- Criação de uma admin dashboard para aprovar ou remove um trabalho com prisma
+
+## Sobre
+- Algunas páginas padrões do next: not found, error
+- Server actions: "use client", "use server" (async)
+- Middleware
