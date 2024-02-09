@@ -49,7 +49,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Utilização do rook useMemo para as listas de cidades
 - Utização do clerk para autenticação do adminstrador
 
-## Coisa criadas
+## Coisas criadas
 - Criação de formulário para criação de anuncio de trabalho.
 - Criação de pesquisa para a lista de trabalhos.
 - Criação de proprios components com shadsn, usando tailwind merge, clsx e forwardRef.
